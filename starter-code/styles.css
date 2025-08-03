@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --cyan-600: #4d96a9;
+  --cyan-300: #8fe3f9;
+  --purple-600: #855fb1;
+  --purple-300: #d9b8ff;
+  --slate-900: #28283d;
+  --slate-600: #87879d;
+  --slate-300: #d1d1df;
+  --text-xl: 4rem;
+  --text-lg: 2.5rem;
+  --text-md: 1.125rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 4.75rem;
+}
+
+.hero__desktop-image--left,
+.hero__desktop-image--right {
+  display: none;
+}
