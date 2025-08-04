@@ -10,9 +10,12 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | Meet landing page</title>
@@ -20,7 +23,7 @@
   <body>
     <header>
       <nav class="header__nav">
-      <img src="./assets/logo.svg" alt="Meet logo" />
+        <img src="./assets/logo.svg" alt="Meet logo" />
       </nav>
     </header>
     <main>
@@ -44,7 +47,9 @@
             collaborate across any device.
           </p>
           <div class="hero__button-container">
-            <button class="button button--cyan">Download <span>v1.3</span></button>
+            <button class="button button--cyan">
+              Download <span>v1.3</span>
+            </button>
             <button class="button button--purple">What is it?</button>
           </div>
         </div>
@@ -86,22 +91,25 @@
             invite-only team access, data encryption, and data export.
           </p>
         </div>
-        <div></div>
       </section>
-    </main>
-    <footer class="section section--footer">
-      <div class="number-wrapper">
-        <div class="vertical-line"></div>
+      <section class="section section--cta">
+        <div class="number-wrapper number-wrapper--cta">
+          <div class="vertical-line"></div>
           <div class="number-circle">
             <p class="number">02</p>
           </div>
-          <div class="footer__text-container">
-            <h2>Experience more together</h2>
-            <p>Stay connected with reliable HD meetings and
-    unlimited one-on-one and group video sessions.</p>
-    <button>Download v1.3</button>
-          </div>
-    </footer>
-      
+        </div>
+        <div class="cta__text-container">
+          <h2 class="cta__title">Experience more together</h2>
+          <p class="cta__description">
+            Stay connected with reliable HD meetings and unlimited one-on-one
+            and group video sessions.
+          </p>
+          <button class="button button--purple">
+            Download <span>v1.3</span>
+          </button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
