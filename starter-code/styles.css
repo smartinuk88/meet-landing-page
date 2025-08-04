@@ -70,6 +70,40 @@ p {
   background-color: var(--purple-600);
 }
 
+.number-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 8.75rem;
+}
+
+.vertical-line {
+  position: absolute;
+  top: -5rem;
+  left: auto;
+  right: auto;
+  height: 5rem;
+  z-index: 1;
+  border: 1px solid var(--slate-300);
+  border-right: none;
+}
+
+.number-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid var(--slate-300);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.number {
+  font-weight: 900;
+}
+
 .header__nav {
   display: flex;
   justify-content: center;
