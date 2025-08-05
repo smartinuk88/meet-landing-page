@@ -207,6 +207,9 @@ p {
 }
 
 .section--cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   padding: 4rem 2rem;
   background: linear-gradient(
@@ -221,10 +224,14 @@ p {
   color: #fff;
 }
 
+.text-container--cta {
+}
+
 .number-wrapper--cta {
   position: absolute;
   top: -10.5rem;
   left: 50%;
+  margin-left: -1.75rem;
 }
 
 .cta__title,
