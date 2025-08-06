@@ -259,7 +259,7 @@ p {
       url(./assets/tablet/image-footer.jpg);
   }
 
-  @media screen and (min-width: 90em) {
+  @media screen and (min-width: 82em) {
     .hero {
       flex-direction: row;
       justify-content: space-between;
